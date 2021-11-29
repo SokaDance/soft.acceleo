@@ -38,7 +38,8 @@ Acceleo update sites are located : https://download.eclipse.org/acceleo/updates/
         -application org.eclipse.equinox.p2.metadata.repository.mirrorApplication
         -source Insert Source URL (e.g https://download.eclipse.org/acceleo/updates/releases/3.7/R202102190929/)
         -destination Insert Destination URL (e.g. file:/tmp/Acceleo-Mirror/)
-
+        ```
+        ```
         eclipse -nosplash -verbose
         -application org.eclipse.equinox.p2.artifact.repository.mirrorApplication
         -source Insert Source URL (e.g https://download.eclipse.org/acceleo/updates/releases/3.7/R202102190929/)
